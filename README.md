@@ -7,7 +7,7 @@ To enable the paste handler plugin add `pastehandler` to the plugins option. e.g
 ```
 <script>
 sceditor.create(textarea, {
-	plugins: 'pastehandler',
+    plugins: 'pastehandler',
     style: 'minified/themes/content/default.min.css'
 });
 </script>
@@ -22,7 +22,7 @@ To specify pastehandler options add a `pastehandler` property to the options obj
 ```
 <script>
 sceditor.create(textarea, {
-	plugins: 'pastehandler',
+    plugins: 'pastehandler',
     style: 'minified/themes/content/default.min.css',
     pastehandler: {
         callback: function (data) {
@@ -38,7 +38,7 @@ Plugin calls the `callback` function when pasted into a WYSIWYG editor. The call
 ```
 <script>
 sceditor.create(textarea, {
-	plugins: 'pastehandler',
+    plugins: 'pastehandler',
     style: 'minified/themes/content/default.min.css',
     pastehandler: {
         callback: function (data) {
